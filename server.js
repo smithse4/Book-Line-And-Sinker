@@ -4,9 +4,12 @@ require("dotenv").config();
 const PORT = process.env.PORT || 3000;
 const passport = require("./config/passport");
 const app = express();
+const compression = require("compression");
 
 
 const db = require("./models");
+
+app.unsubscribe(compression());
 
 app.use(express.static("public"));
 // app.use(express.static("dist"));
