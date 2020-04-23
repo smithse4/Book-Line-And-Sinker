@@ -2,7 +2,7 @@
   "development": {
     "use_env_variable": "DB_DEV",
     "username": "root",
-    "password": "root",
+    "password": "Mama90Kay",
     "database": "goodreadsDb",
     "host": "127.0.0.1",
     "dialect": "mysql",
