@@ -20,27 +20,27 @@ module.exports = function (app) {
     res.redirect("/library");
   });
   app.get("/explore", function (req, res) {
-    res.sendFile(path.join(__dirname, "../dist/explore.html"));
+    res.sendFile(path.join(__dirname, "../public/explore.html"));
   });
   app.get("/reviews", function (req, res) {
-    res.sendFile(path.join(__dirname, "../dist/reviews.html"));
+    res.sendFile(path.join(__dirname, "../public/reviews.html"));
   });
   app.get("/login", function (req, res) {
     if (req.user) {
       res.redirect("/");
     }
-    res.sendFile(path.join(__dirname, "../dist/login.html"));
+    res.sendFile(path.join(__dirname, "../public/login.html"));
   });
   app.get("/signup", function (req, res) {
     if (req.user) {
       res.redirect("/");
     }
-    res.sendFile(path.join(__dirname, "../dist/signup.html"));
+    res.sendFile(path.join(__dirname, "../public/signup.html"));
   });
   app.get("/explore", isAuthenticated, function (req, res) {
-    res.sendFile(path.join(__dirname, "../dist/explore.html"));
+    res.sendFile(path.join(__dirname, "../public/explore.html"));
   });
   app.get("/reviews", isAuthenticated, function (req, res) {
-    res.sendFile(path.join(__dirname, "../dist/reviews.html"));
+    res.sendFile(path.join(__dirname, "../public/reviews.html"));
   });
 };
