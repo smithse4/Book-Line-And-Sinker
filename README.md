@@ -19,13 +19,13 @@ Book, Line & Sinker provides a resource for readers where they can discover new 
 
 * [Questions](#questions)
 
-## Installation
+## Installing
 
-To install the necessary dependencies, run the following command:
+To run the app locally, you will first need to git clone the repository to your local machine.
 
-```
-npm install
-```
+* Cd into repository
+* Install dependencies by running 'npm install'
+* Start app by running 'node server.js'
 
 ## Usage
 
