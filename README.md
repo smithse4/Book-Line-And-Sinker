@@ -1,9 +1,11 @@
 # Book-Line-and-Sinker
 [![License: Unlicense](https://img.shields.io/badge/license-Unlicense-blue.svg)](http://unlicense.org/)
 
-## Description
+## Overview
 
 Book, Line & Sinker provides a resource for readers where they can discover new books, keep a library of books they have read or would like to read, and view and contribute book reviews. This application uses MySQL, Express, NodeJS, Handlebars.js, and W3 Schools CSS Framework.
+
+The front end was built using a combination of HTML, CSS, and Handlebars.js. MySQL handles the users' database information and stores book data. Node JS and Express handle the routes from the back end to the front. Passport npm package is used for user login.
 
 ### Questions? Email me [here.](mailto:smithse4@gmail.com)
 
