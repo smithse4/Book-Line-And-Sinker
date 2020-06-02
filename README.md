@@ -5,6 +5,8 @@
 
 Book, Line & Sinker provides a resource for readers where they can discover new books, keep a library of books they have read or would like to read, and view and contribute book reviews. This application uses MySQL, Express, NodeJS, Handlebars.js, and W3 Schools CSS Framework.
 
+### Questions? Email me [here.](mailto:smithse4@gmail.com)
+
 ## Table of Contents
 
 * [Installation](#installation)
@@ -16,8 +18,6 @@ Book, Line & Sinker provides a resource for readers where they can discover new 
 * [Screenshot](#screenshot)
 
 * [Links](#links)
-
-* [Questions](#questions)
 
 ## Installing
 
@@ -45,9 +45,7 @@ This project does not have a license. You are free to clone and distribute as yo
 
 * [Deployed Site](https://bookls.herokuapp.com/)
 
-## Questions
+## Contributors
 
 <img src="https://avatars3.githubusercontent.com/u/28291062?v=4" alt="avatar" style="border-radius: 16px;" width="30" /> <img src="https://avatars0.githubusercontent.com/u/59581501?v=4" alt="avatar" style="border-radius: 16px;" width="30" /> <img src="https://avatars0.githubusercontent.com/u/59235205?v=4" alt="avatar" style="border-radius: 16px;" width="30" /> <img src="https://avatars2.githubusercontent.com/u/58233364?v=4" alt="avatar" style="border-radius: 16px;" width="30" />
-
-If you have any questions about the repo, open an issue or contact [smithse4](https://api.github.com/users/smithse4).
 
